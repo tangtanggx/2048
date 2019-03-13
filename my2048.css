@@ -1,0 +1,17 @@
+body, div, span, a {
+    margin: 0;
+    padding: 0;
+}
+
+#my2048 {
+    margin: 0 auto;
+    position: relative;
+    background-color: #ccc0b3;
+}
+
+#my2048 div {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    transition: left 0.3s, top 0.3s;
+}
